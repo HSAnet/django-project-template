@@ -1,17 +1,24 @@
-# Welcome to MkDocs
+# django project template
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+A template to create new django projects containing addtional features to kick-start your development.
 
-## Commands
+Project website: [github.com/noxan/django-project-template](https://github.com/noxan/django-project-template)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Issue tracker: [github.com/noxan/django-project-template/issues](https://github.com/noxan/django-project-template/issues)
 
-## Project layout
+## Key features
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* support for multiple targets (e.g. development, production, test)
+* requirement tracking and management
+* easy deployment to server
+* integrated into development process (github)
+
+## Abstract
+
+This project template solves every day problems with django and provides some useful additional features. It is designed to be used with the latest stable django (1.6.5) and python (3.4) version. Furthermore it is ready to be deployed on a Debian GNU/Linux based system within no time and tries to simplify the deployment process.
+
+## Usage
+
+    $ django-admin.py startproject --template=https://github.com/noxan/django-project-template/archive/master.zip --extension=py,md,html,sh --name=Makefile <project_name>
+
+## Documentation
